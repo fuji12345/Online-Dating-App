@@ -1,0 +1,51 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+.icon {
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+}
+.last-message{
+  opacity: 0.6;
+}
+.message-box{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.btn--message{
+  color: #fff;
+  background-color: #ac9cec;
+}
+.btn--message:hover{
+  color: #fff;
+  background: #3d3a64;
+}
+.btn--radius {
+   border-radius: 100vh;
+}
+.home{
+  color: rgb(127, 123, 123);
+  border-radius: 15%;
+}
+.home:hover{
+  color: rgb(64, 64, 64);
+  background-color: rgb(99, 98, 98);
+}
+.send-message-box{
+  padding: 0.75rem;
+}
+.search-btn{
+  border: #0c0c0c;
+  border-radius: 15%;
+  color: #f1dfdf;
+  background-color: #f54141;
+}
+.chat-nav{
+  margin-top: 72px;
+}
