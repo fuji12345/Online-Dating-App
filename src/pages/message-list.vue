@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import messageListItem from "../items/message-list-item.vue";
+import messageListItem from "../components/message-list-item.vue";
 
 export default {
     name: "messageList",

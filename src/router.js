@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory } from "vue-router"
-import userList from "./components/pages/user-list.vue"
-import userDetail from "./components/pages/user-detail.vue"
-import messageList from "./components/pages/message-list.vue"
-import chat from "./components/pages/chat.vue"
+import userList from "./pages/user-list.vue"
+import userDetail from "./pages/user-detail.vue"
+import messageList from "./pages/message-list.vue"
+import chat from "./pages/chat.vue"
 
 export const router = createRouter({
     history: createWebHistory(),
