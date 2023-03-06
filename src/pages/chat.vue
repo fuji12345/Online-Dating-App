@@ -9,7 +9,6 @@
             <div class="" v-for="(messages, index) in $store.state.messagesStore.messages[$route.params.id]" :key="messages">
                 <div v-if="(index % 2 === 0)" class="d-flex justify-content-end my-3 py-3">
                     <h4>{{ messages }}</h4>
-                    <img class="icon" src="../../assets/icon1.png">
                 </div>
                 <div v-else class="d-flex justify-content-start my-3 py-3">
                     <img class="icon" :src="$store.state.usersStore.users[$route.params.id].picture.medium">
